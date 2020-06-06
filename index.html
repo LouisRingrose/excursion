@@ -10,4 +10,49 @@
         <h1>Discover hidden places in the world around you</h1>
         <a href="#">Download Excursion (Coming soon!)</a>
     </header>
+
+    <body>
+        <div class="video">
+            <p>
+                <video id="videoEl" src="./resources/videos/excursion.mp4" autoplay loop muted ></video>
+            </p>
+            <!-- <div id="playButton" class="play-button" onclick="playVideo()">
+                Play
+            </div>
+        </div> -->
+
+        <!-- <script>
+            function playVideo() {
+                let videoEl = document.querySelector("#videoEl")
+                videoEl.play()
+                videoEl.addEventListener("ended", videoEnded)
+                
+                let playButton = document.querySelector("#playButton")
+                playButton.style.display = "none"
+            }
+
+            function videoEnded() {
+                let videoEl = document.querySelector("#videoEl")
+                videoEl.currentTime = 0
+
+                let playButton = document.querySelector("#playButton")
+                playButton.style.display = "block"
+            }
+        </script> -->
+
+        <div class="travel">
+            <span>Your personal travel guide</span>
+            <p id="lo">Excursion remembers places you like, and recommends new points of interest around you.</p>
+            <p><img src="./resources/images/camp.jpg"></p>
+        </div>
+
+
+        <div class ="footer">
+            <p><img src ="./resources/images/phone.png"></p>
+            <span>Coming Soon for iphone and Android</span>
+            <a href="#">Download Excursion (Coming soon!)</a>
+        </div>
+
+        <span id="copy">Copyright</span>
+    </body>
 </html>
