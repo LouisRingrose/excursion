@@ -1,0 +1,59 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+a {
+    display: block;
+    font-size: 16px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.video p {
+    text-align: center;
+}
+
+.play-button {
+    color: white;
+    position: ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+ .travel span,
+ .footer span{
+    text-align: center;
+    display: block;
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
+}
+
+#lo {
+    font-size: 21px;
+    color: gray;
+}
+
+.footer a {
+    position: relative;
+    top: 30px;
+}
+
+#copy {
+   color: gray;
+   text-align: right;
+   display: block;
+   position: relative;
+   top: 40px; 
+}
